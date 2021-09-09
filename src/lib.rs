@@ -10,7 +10,7 @@ extern crate embedded_hal as ehal;
 
 use core::fmt;
 
-const ADDRESS: u8 = 0x76;
+const ADDRESS: u8 = 0x77;
 
 /// BMP280 driver
 pub struct BMP280<I2C: ehal::blocking::i2c::WriteRead> {
